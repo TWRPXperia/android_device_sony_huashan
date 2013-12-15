@@ -29,6 +29,8 @@ TARGET_SPECIFIC_HEADER_PATH += device/sony/huashan/include
 # Kernel properties
 TARGET_KERNEL_SOURCE := kernel/sony/msm8960t
 TARGET_KERNEL_CONFIG := cm_viskan_huashan_defconfig
+TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/kernel
+
 
 # Platform
 TARGET_BOOTLOADER_BOARD_NAME := MSM8960
